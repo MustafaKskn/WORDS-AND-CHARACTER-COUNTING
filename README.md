@@ -1,6 +1,6 @@
-# WORDS-AND-CHARACTER-COUNTING.
+# WORDS-AND-CHARACTER-COUNTING. :computer:
 >The aim of the project is to find the number of characters and words in the text written inside the box with php language.
-<h3 align="left">Languages and Tools:</h3>
+<h2 align="left">Languages and Tools 🐊 </h3>
 
 <p>
      <a href="https://www.php.net" target="_blank"><img src="https://user-images.githubusercontent.com/108763130/223422027-d8cf0d98-1329-43ba-8b05-507372a9c3b7.png"  width="40" height="40" style="margin-left: 20PX;"></a>
@@ -9,4 +9,4 @@
 </p>  
 
 
-![Ekran Alıntısı](https://user-images.githubusercontent.com/108763130/223418211-6fd160d2-6ead-4682-b9ff-8b8f607e6d80.PNG)
+:printer: ![Ekran Alıntısı](https://user-images.githubusercontent.com/108763130/223418211-6fd160d2-6ead-4682-b9ff-8b8f607e6d80.PNG)
