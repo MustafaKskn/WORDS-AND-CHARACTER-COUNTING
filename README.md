@@ -64,4 +64,5 @@
 
  >## The output of the code :printer:
  
- 
+ <a><img src="https://github.com/MustafaKskn/WORDS-AND-CHARACTER-COUNTING/blob/aace22185e4ff1f1679b72cb5455bba135a6631a/kelimesayac/imges/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG">
+<img src="https://github.com/MustafaKskn/WORDS-AND-CHARACTER-COUNTING/blob/aace22185e4ff1f1679b72cb5455bba135a6631a/kelimesayac/imges/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG"></a>
