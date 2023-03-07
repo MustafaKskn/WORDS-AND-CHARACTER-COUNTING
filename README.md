@@ -4,7 +4,7 @@
 
 >##     How to Use?
 ```
-     1.Run the index.php file on a PHP server.
+     1.Run the kelimesayac.php file on a PHP server.
      2.Enter your text in the textarea.
      3.Click the "Submit" button.
      4.The results will be displayed below.
