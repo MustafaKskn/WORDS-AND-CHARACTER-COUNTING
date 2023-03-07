@@ -1,12 +1,46 @@
-# WORDS-AND-CHARACTER-COUNTING :computer:
->The aim of the project is to find the number of characters and words in the text written inside the box with php language.
-<h2 align="left">Languages and Tools 🐊 </h3>
+# Word, Character and Paragraph Counter :computer:
+##### This PHP application counts the number of words, characters, and paragraphs in the entered text.
 
-<p>
-     <a href="https://www.php.net" target="_blank"><img src="https://user-images.githubusercontent.com/108763130/223422027-d8cf0d98-1329-43ba-8b05-507372a9c3b7.png"  width="40" height="40" style="margin-left: 20PX;"></a>
-    <a href="https://www.w3schools.com/html/default.asp" target="_blank"><img src="https://user-images.githubusercontent.com/108763130/223422298-bd30ae8a-0ee7-448f-a4fe-2db638ddcdf8.png"  width="40" height="40" margin-left: 20PX;"></a>
-  <a href="https://www.w3schools.com/css/default.asp" target="_blank"><img src="https://user-images.githubusercontent.com/108763130/223422360-70e952df-008b-4bb5-b454-f6e7b1cd6194.png"  width="40" height="40"  style="margin-left: 20PX;"></a>
-</p>  
+##     How to Use?
+```
+     1.Run the index.php file on a PHP server.
+     2.Enter your text in the textarea.
+     3.Click the "Submit" button.
+     4.The results will be displayed below.
+ ```
+ ##     Code Examples
+ 
+ ```
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Word, Character, and Paragraph Counter</title>
+</head>
+<body>
+	<form method="post">
+		<textarea name="text"></textarea><br>
+		<input type="submit" name="submit" value="Submit"><br><br>
 
+		<?php
+		if(isset($_POST['submit'])){
+			$text = $_POST['text'];
 
-:printer: ![Ekran Alıntısı](https://user-images.githubusercontent.com/108763130/223418211-6fd160d2-6ead-4682-b9ff-8b8f607e6d80.PNG)
+			// Count the number of words
+			$word_count = str_word_count($text);
+
+			// Count the number of characters
+			$clean_text = str_replace(" ", "", $text);
+			$char_count = strlen($clean_text);
+
+			// Count the number of paragraphs
+			$paragraph_count = preg_match_all('/\n/', $text) + 1;
+
+			echo "The text contains $word_count words, $char_count characters, and $paragraph_count paragraphs.";
+               
+		}
+		?>
+	</form>
+</body>
+</html>
+```
++ This code is a sample code.
