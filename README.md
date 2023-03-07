@@ -1,14 +1,16 @@
 # Word, Character and Paragraph Counter :computer:
-##### This PHP application counts the number of words, characters, and paragraphs in the entered text.
+>This PHP application counts the number of words, characters, and paragraphs in the entered text.
+</br>
 
-##     How to Use?
+>##     How to Use?
 ```
      1.Run the index.php file on a PHP server.
      2.Enter your text in the textarea.
      3.Click the "Submit" button.
      4.The results will be displayed below.
  ```
- ##     Code Examples
+ ##     Code Examples :memo:
+
  
  ```
  <!DOCTYPE html>
@@ -43,4 +45,23 @@
 </body>
 </html>
 ```
-+ This code is a sample code.
+
+>###### This code is a sample code. :warning:
+</br>
+
+> ###### The above code is located in the index.php file and calculates the number of words, characters, and paragraphs in the given text. The text is entered in the textarea and submitted by clicking the "Submit" button. The results are displayed at the bottom of the page.
+</br>
+
+>## Resources
+
++ The following PHP functions were used in this application:
++ str_word_count(): Returns the number of words in a specified string.
++ str_replace(): Replaces all occurrences of the search string with the replacement string.
++ strlen(): Returns the length of a string.
++ preg_split(): The preg_split() function splits a string into an array of substrings based on a specified regular expression pattern.
+
+</br>
+
+ >## The output of the code :printer:
+ 
+ 
