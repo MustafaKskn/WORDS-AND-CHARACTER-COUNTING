@@ -1,4 +1,4 @@
-# WORDS-AND-CHARACTER-COUNTING. :computer:
+# WORDS-AND-CHARACTER-COUNTING :computer:
 >The aim of the project is to find the number of characters and words in the text written inside the box with php language.
 <h2 align="left">Languages and Tools 🐊 </h3>
 
